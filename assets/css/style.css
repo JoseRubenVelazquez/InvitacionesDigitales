@@ -92,39 +92,32 @@ a{
     display: inline-block;
     padding: 10px;
     color: #000;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
-    margin: -1500px 0 0 120px;
-    /*bottom: 0px;
-    left: 130px;
-    top: 750px;*/
+    bottom: 0px;
+    left: 90px;
+    top: 750px;
     text-align: center;
   }
   .countdown div{
     float: left;
     padding: 10px;
-    color: #000;
-    font-weight: bolder;
-    
+    color: #fff;
+    font-weight: bolder;  
   }
   .countdown p{
       width: auto;
       font-weight: bolder;
+      font-size: 50px;
   }
 
-/*Seccion principal*/
+/*Portada*/
 .card{
     height: auto;
     background-image: linear-gradient(#eacda3, #d6ae7b);
     color: #000;
 }
-.img-fluid{
-    height: auto;
-}
 .col-md-4{
-    height: auto;
-}
-.col-md-8{
     height: auto;
 }
 .card-title{
