@@ -270,4 +270,21 @@ footer{
     letter-spacing: 3px;
 }
 
-
+@media(max-width: 768px){
+    .timer{
+        display: inline-block;
+        padding: 10px;
+        color: #000;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 90px;
+        top: 550px;
+        text-align: center;
+      }
+      .countdown p{
+        width: auto;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    }
