@@ -94,9 +94,10 @@ a{
     color: #000;
     font-size: 20px;
     position: absolute;
-    bottom: 0px;
+    margin: -1500px 0 0 120px;
+    /*bottom: 0px;
     left: 130px;
-    top: 750px;
+    top: 750px;*/
     text-align: center;
   }
   .countdown div{
@@ -111,13 +112,19 @@ a{
       font-weight: bolder;
   }
 
-/*Portada*/
+/*Seccion principal*/
 .card{
     height: auto;
     background-image: linear-gradient(#eacda3, #d6ae7b);
     color: #000;
 }
+.img-fluid{
+    height: auto;
+}
 .col-md-4{
+    height: auto;
+}
+.col-md-8{
     height: auto;
 }
 .card-title{
