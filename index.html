@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Invitaciones digitales">
+    <meta name="keywords" content="HTML, CSS, JavaScript, quince, invitacion, fiesta, quinceaños, quince años, invitaciones, eventos, bautizos, bodas, despedida de solteras">
+    <meta name="author" content="Ruben Velazquez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <!--Font Aweson-->
+    <script src="https://kit.fontawesome.com/b2d3ca64fc.js" crossorigin="anonymous"></script>
+    
+    <title>bestParty</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="quince">Mis XV Años</h1>
+    </header>
+    <!--Navbar--> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="assets/images/logo.gif" class="logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#galery">Galería de fotos <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#ceremony">Ceremonia Religiosa</a>
+          <a class="nav-item nav-link active" href="#reception">Recepción</a>
+          <a class="nav-item nav-link active" href="#confirmation">Confirmar Asistencia</a>
+        </div>
+      </div>
+    </nav>
+   
+    <!--Up Arrow-->
+    <div class="cielo">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+  
+    <!--Pincipal section-->
+    <div class="card mb-3" style="max-width: 1400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/images/image2.jpg" class="img-fluid rounded-start" alt="Quince">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Alejandra Nataly</h4>
+            <h3>Mis Papás</h3>
+            <p>Alfonso Antonio</p> 
+            <p class="mad">Elizabeth Catalina</p>
+            
+            <h3>Mis Padrinos</h3>
+            <p>Hector</p> 
+            <p class="mad">Claudia Jazmín</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Galería de Fotos-->
+    <h1 id="galery">Galería de fotos</h1>
+    <div class="photos">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/image.jpg" class="d-block" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/image2.jpg" class="d-block w-30" alt="img2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/image3.jpg" class="d-block w-30" alt="img3">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/image4.jpg" class="d-block w-30" alt="img4">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/image5.jpg" class="d-block w-30" alt="img5">
+            </div>
+          </div>
+
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+
+    <!--Church and Terrace grid-->
+    <div class="map"></div>
+    <div class="row rows row-cols-1 row-cols-md-2 g-4">
+      <div class="col" id="map">
+        <h1 id="ceremony">Ceremonia Religiosa</h1>
+        <div class="card cards">
+          <img src="assets/images/parroquia.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Parroquia María Madre del Redentor</h5> 
+            <p><span>Fecha:</span> 02 de Enero de 2022 18:00 hrs</p>
+            <p><span>Domicilio:</span> Av. El Colli Esq. Jacarandas 1095-A, Paraisos del Colli, Zapopan, Jalisco</p>
+          
+            <!-- Button trigger modal -->
+            <button type="button" class="btn d-block mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">Mapa</button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ceremonia Religiosa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.503580399469!2d-103.45558858576133!3d20.649081706008605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428abf8fa776f5d%3A0x3b0e067e2939f9f0!2sParroquia%20Mar%C3%ADa%20Madre%20del%20Redentor!5e0!3m2!1ses!2smx!4v1631918344402!5m2!1ses!2smx" width="100%" height="410" style="border:0" allowfullscreen=""  loading="lazy"></iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btns btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col cols" id="maps">
+        <h1 id="reception">Recepción</h1>
+        <div class="card cards">
+          <img src="assets/images/terraza.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salón de Eventos</h5>
+            <p><span>Fecha:</span> 02 de Enero de 2022 20:00 hrs</p>
+          <p><span>Domicilio:</span> Del Sol 76 Esq. Volcán Quinceo, Paraisos del Colli, Zapopan, Jalisco</p>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn d-block mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModals">Mapa</button>
+            
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Recepción</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.601667118009!2d-103.44704468576138!3d20.64508700614271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428adf85f2cb5bf%3A0xce2f0ed9cac12d8c!2sDel%20Sol%2076%2C%20Para%C3%ADsos%20del%20Colli%2C%2045069%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1631928907351!5m2!1ses!2smx" width="100%" height="410" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btns btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Confirmation--> 
+    <h1>Confirmar Asistencia</h1>
+    <div class="confirm" id="confirmation">
+      <a href="https://api.whatsapp.com/send?phone=523310417653&text=Hola%2C+Confirmo+mi+asistencia.+Gracias.%21%21%21" class="button-whatsapp">Confirmar</a>
+    </div>
+      
+    <footer>
+      <p class="footer">CONTACTO</p>
+      <p class="phone">33 10 41 76 53</p>
+    </footer>
+      
+    <!--Temporizador-->
+   <div class="timer">
+      <div class="countdown">
+        <div>
+          <p id="days">00</p>
+          <span>Días</span>
+        </div>
+        <div>
+          <p id="hours">00</p>
+          <span>Hrs</span>
+        </div>
+        <div>
+          <p id="minutes">00</p>
+          <span>Min</span>
+        </div>
+        <div>
+          <p id="seconds">00</p>
+          <span>Seg</span>
+        </div>
+      </div>
+    </div>
+
+
+    
+     <!--JavaScript-->
+     <!--Bootstrap 4-->  
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <!--Bootstrap 5--> 
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+     <!--Lamada al Script--> 
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="assets/js/index.js"></script>
+      
+  </div>
+</body>
+</html>

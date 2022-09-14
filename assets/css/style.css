@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Principal container*/
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*Header*/
+header{
+    position: relative;
+    height: 40px;
+    margin: auto;
+    background-image: linear-gradient(#eacda3, #d6ae7b);
+    margin-bottom: 1px;   
+}
+.quince{
+    line-height: 40px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+}
+
+/*Navbar*/
+.nav-item{
+    line-height: 30px;
+    color: #000;
+    background: #fff;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+a{
+    line-height: 30px;
+    color: #000;
+    background: #fff;
+    letter-spacing: 3px;
+    font-size: 19px;
+    font-weight: bold; 
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*UpArrow*/
+.cielo{
+    display: inline-block;
+    padding: 10px;
+    background-image: linear-gradient(#D1913C, #FFD194);
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 1;
+    width: 40px;
+}
+.cielo:hover{
+    cursor: pointer;
+    translate: 1px;
+    font-size: 20px;
+}
+
+/*Temporizador*/
+.timer{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
+    top: 750px;
+    text-align: center;
+  }
+  .countdown div{
+    float: left;
+    padding: 10px;
+    color: #000;
+    font-weight: bolder;
+    
+  }
+  .countdown p{
+      width: auto;
+      font-weight: bolder;
+  }
+
+/*Portada*/
+.card{
+    height: auto;
+    background-image: linear-gradient(#eacda3, #d6ae7b);
+    color: #000;
+}
+.col-md-4{
+    height: auto;
+}
+.card-title{
+    text-align: center;
+}
+h4{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/*Galery*/
+h1{
+    margin: 5px auto;
+    text-align: center;
+    font-weight: 700;
+}
+.photos{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 700px;
+}
+.photos img{
+    width: 100%;
+    height: 500px;  
+}
+
+/*church and terrace*/
+.rows{
+    margin-top: -210px;
+}
+.cards{
+    height: 550px;
+}
+.card-img-top{
+    height: 300px;
+}
+h5{
+    font-size: 25px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    border: 2px solid;
+    border-color: #000;
+    border-radius: 10px;
+    background-image: linear-gradient(#D1913C, #FFD194);
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+.btn:hover{
+    cursor: pointer;
+    border-color: #000;
+    translate: 1px;
+    font-size: 20px;
+    color: #000;
+}
+.btns{
+    width: 200px;
+    height: 40px;
+    border: 2px solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: gray;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+.btns:hover{
+    cursor: pointer;
+    background-color: #000;
+    border: #000;
+}
+
+/*Confirmation*/
+.confirm{
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
+    line-height: 40px;
+    text-decoration: none; 
+}
+.confirm:hover{
+    translate: 1px;
+    color: #000;  
+}
+
+/*Whatsap Button*/
+.confirm{
+    background-image: linear-gradient(#D1913C, #FFD194); 
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.button-whatsapp{
+    display: table;
+    text-decoration: none; 
+    font-size: 20px;
+    letter-spacing: 5px;
+    background: url(../images/whatsapp.png) no-repeat 40px center;background-size: 28px;
+    width: 300px;
+    height: 40px;   
+}
+.button-whatsapp:hover{
+    text-decoration: none;
+    font-size: 22px;
+}
+.container .button-whatsapp{
+    color: #000;
+    font-weight: 800;
+}
+/*.container .button-whatsapp:active{
+    transform: translateY(2px);
+}*/
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 55px;
+    margin: auto auto 5px;
+    background-image: linear-gradient(#eacda3, #d6ae7b);
+    color: #000;
+}
+
+.footer{
+    text-align: center;
+    font-weight: 1000;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.phone{
+    text-align: center;
+    font-weight: 500;
+    line-height: 2px;
+    letter-spacing: 3px;
+}
+
+
