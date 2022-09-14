@@ -270,7 +270,7 @@ footer{
     letter-spacing: 3px;
 }
 
-@media(max-width: 768px){
+@media(min-width: 220px) and (max-width: 550px){
     .timer{
         display: inline-block;
         padding: 10px;
@@ -285,6 +285,6 @@ footer{
       .countdown p{
         width: auto;
         font-weight: bolder;
-        font-size: 40px;
+        font-size: 20px;
     }
     }
