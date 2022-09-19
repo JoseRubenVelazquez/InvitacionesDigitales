@@ -281,9 +281,9 @@ footer{
     transform: translateY(-250%);
     transition: ease-in-out 0.5s;
 }
-.img-fluid{
-    height: 1000px;
-    width: 1320px;
+.img-final{
+    height: 786px;
+    width: 1325px;
 }
 
 
@@ -306,5 +306,20 @@ footer{
     }
     .cards{
         height: 600px;
+    }
+    .mensaje-final{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 122px;
+        bottom: 0;
+        display: grid;
+        place-items: center;
+        transform: translateY(-250%);
+        transition: ease-in-out 0.5s;
+    }
+    .img-final{
+        height: 813px;
+        width: 459px;
     }
     }

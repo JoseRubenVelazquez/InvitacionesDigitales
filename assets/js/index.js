@@ -30,7 +30,7 @@ $seconds = document.getElementById('seconds'),
 $finalMessage = document.querySelector('.mensaje-final');
 
 /*Definimos fecha*/
-const countdown = new Date('sep 19, 2023 11:10:00').getTime();
+const countdown = new Date('sep 19, 2022 11:23:00').getTime();
 
 let interval = setInterval(function(){
   /*Fecha Actual*/
