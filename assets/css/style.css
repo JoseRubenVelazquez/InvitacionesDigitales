@@ -270,6 +270,23 @@ footer{
     letter-spacing: 3px;
 }
 
+.mensaje-final{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 122px;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-250%);
+    transition: ease-in-out 0.5s;
+}
+.img-fluid{
+    height: 1000px;
+    width: 1320px;
+}
+
+
 @media(min-width: 220px) and (max-width: 550px){
     .timer{
         display: inline-block;

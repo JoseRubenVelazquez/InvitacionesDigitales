@@ -27,10 +27,10 @@ const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
 $seconds = document.getElementById('seconds'),
-$finalMessage = document.getElementById('.sms-final');
+$finalMessage = document.querySelector('.mensaje-final');
 
 /*Definimos fecha*/
-const countdown = new Date('Jan 02, 2023 18:00:00').getTime();
+const countdown = new Date('sep 19, 2023 11:10:00').getTime();
 
 let interval = setInterval(function(){
   /*Fecha Actual*/
@@ -43,7 +43,7 @@ let interval = setInterval(function(){
   let days = Math.floor(distance / (1000 * 60 * 60 * 24));
   let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((distance % (1000 * 60)) / (1000));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   /*Mostrar resultados*/
   $days.innerHTML = days;
@@ -54,6 +54,7 @@ let interval = setInterval(function(){
   /*Cuando llegue a 0*/
   if(distance < 0){
     clearInterval(interval);
+    $finalMessage.style.transform = 'translateY(0)';
   }
 }, 1000);
 
