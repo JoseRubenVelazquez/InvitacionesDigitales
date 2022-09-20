@@ -307,16 +307,4 @@ footer{
     .cards{
         height: 600px;
     }
-    .mensaje-final{
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 122px;
-        bottom: 0;
-        display: grid;
-        place-items: center;
-        transform: translateY(-250%);
-        transition: ease-in-out 0.5s;
-    }
-   
     }
