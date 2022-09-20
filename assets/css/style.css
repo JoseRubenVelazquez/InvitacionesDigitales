@@ -318,8 +318,5 @@ footer{
         transform: translateY(-250%);
         transition: ease-in-out 0.5s;
     }
-    .img-final{
-        height: 1250px;
-        width: auto;
-    }
+   
     }
